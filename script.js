@@ -8,7 +8,6 @@ splitNavtext.forEach((e)=>{
 navText=clutter
 document.querySelector(".nav-text").innerHTML = navText;
 
-console.log(navText);
  var tl1 = gsap.timeline()
 
 tl1
@@ -24,3 +23,26 @@ tl1
     opacity:0,
 })
 
+var mouse = document.querySelector(".mouse")
+
+document.querySelector(".Text-part").addEventListener("mousemove",function(e){
+    gsap.to(".mouse",{
+      top:e.y-55+"px",
+      left:e.x-55+"px",
+      transform: "scale(1)",
+      display: "block",
+      mixBlendMode:"difference"
+    })
+  })
+  document.querySelector(".Text-part").addEventListener("mouseenter", function(){
+    gsap.to(".mouse",{
+      transform: "scale(1)",
+    })
+  })
+  document.querySelector(".Text-part").addEventListener("mouseleave", function(){
+    gsap.to(".mouse",{
+      transform: "scale(0)",
+  
+  
+    })
+  })
