@@ -46,3 +46,15 @@ document.querySelector(".Text-part").addEventListener("mousemove",function(e){
   
     })
   })
+
+  document.querySelector('.button').addEventListener('click', function() {
+           
+    var downloadLink = document.querySelector('#downloadLink');
+
+  
+    var fileURL = 'file.png'; 
+
+    downloadLink.setAttribute('href', fileURL);
+
+    downloadLink.click();
+});

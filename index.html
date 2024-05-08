@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title >Portfolio</title>
     <link rel="shortcut icon" href="./pictures/favion.jpg" type="favicon">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
@@ -12,6 +13,9 @@
 />
 
 <style>
+.main{
+    /* overflow: h; */
+}
 .avatar{
     animation: spin 4s ease 1  ;
 
@@ -32,19 +36,19 @@
 <body>
     <div class="mouse w-[6vw] h-[6vw] rounded-full z-10 absolute scale-0 hidden truncate cursor-grab  bg-white mix-blend-difference  " >  </div>
     <div class="main w-[100%] h-[100%]" >
-<div class="page1 w-[100%] h-[100%] bg-white">
-<div class=" bg-gray-400 w-[100%] h-[4vw] flex items-center justify-between pl-[7vw]  text-xl pr-[7vw]">
+<div  class="page1 w-[100%] h-[100%] ">
+<div class="nav bg-gray-400 w-[100%] h-[4vw] flex items-center justify-between pl-[7vw]  text-xl pr-[7vw]">
     <div >
         <h1 class="nav-text gilroy italic text-2xl " >Lokesh dhote</h1>
     </div>
-    <div class="nav-part2 flex items-center justify-between gap-[4vw] " >
-        <a href="">About</a>
-        <a href="">Project</a> 
-        <a href="">Skill</a>
+    <div id="two" class="nav-part2 flex items-center justify-between gap-[4vw] " >
+        <a href="#page2">About</a>
+        <a href="#page3">Project</a> 
+        <a href="#page4">Skill</a>
     </div>
    
 </div>
-<div class="w-[100%] h-[100%] flex ">
+<div class="w-[100%] h-[100%] flex mb-[2vw] ">
     <div class="left w-[50%] h-[100%] ">
         <div class="Text-part flex flex-col gap-[0.9vw]  mt-[8vw] ml-[4vw] " >
             <h1 class="  text-2xl ">Hello i'm </h1>
@@ -59,6 +63,8 @@
         </div>
         <div class=" mt-[3vw] ml-[13vw]">
             <button class="button w-[8.5vw] h-[2.5vw] rounded border-2 border-black   transition: all ease delay-[0.25s]    hover:rounded-full hover:border-2 border-black">Download CV</button>
+    <a href="path/to/your/file.pdf" id="downloadLink" download hidden></a>
+            
         </div>
     
 </div>
@@ -70,17 +76,29 @@
 </div>
 </div>
 
+</div >
+<div id="page2" class=" w-[100%] h-screen bg-[#ECE5D8]">
+<div class ="  ml-[5vw] mt-[3vw]  mb-[1vw] inline-block" >
+    <h1 class="montserrat text-3xl font-[500]" >About</h1>
 </div>
-<div class="page2 w-[100%] h-[100%]">
+<div class="w-[100%] h-[80%] rounded flex items-center justify-center" >
+<div class="gilroy bg-[#4a724f] flex text-[1.3vw] items-center text-white flex-col  justify-around rounded w-[80%] h-[80%] pl-[4vw] pr-[4vw] pt-[2vw] pb-[2vw] " >
+    <h1>" Hello there! I'm Lokesh Dhote, a proactive Computer Science and Engineering student at LNCT College, currently embarking on my second year of B.Tech. With a versatile skill set encompassing proficiency in C, frontend and backend development, as well as React, I'm passionate about leveraging technology to solve real-world problems and create innovative solutions.</h1>
+    <h1>  Beyond the classroom, I thrive in competitive environments, having actively participated in numerous coding hackathons. These experiences have not only sharpened my technical abilities but also honed my problem-solving skills and fostered a collaborative mindset.</h1>
+    <h1>I'm eager to continue my journey of growth, exploration, and impact in the realm of computer science, fueled by my passion for learning and my commitment to making a difference through technology. "</h1>
+</div>
+</div>
+</div>
+</div>
+<div id="page3" class=" w-[100%] h-screen ">
+<div>
+    <h1>Skills</h1>
+</div>
+</div>
+<div id="page4"class=" w-[100%] h-screen">
 
 </div>
-<div class="page3 w-[100%] h-[100%]">
-
-</div>
-<div class="page4 w-[100%] h-[100%]">
-
-</div>
-<div class="footer ">
+<div  id="footer"class=" ">
 
 </div>
 
