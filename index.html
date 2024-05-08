@@ -36,7 +36,7 @@
 <body>
     <div class="mouse w-[6vw] h-[6vw] rounded-full z-10 absolute scale-0 hidden truncate cursor-grab  bg-white mix-blend-difference  " >  </div>
     <div class="main w-[100%] h-[100%]" >
-<div  class="page1 w-[100%] h-[100%] ">
+<div  class="page1 w-[100%] h-screen bg-white">
 <div class="nav bg-gray-400 w-[100%] h-[4vw] flex items-center justify-between pl-[7vw]  text-xl pr-[7vw]">
     <div >
         <h1 class="nav-text gilroy italic text-2xl " >Lokesh dhote</h1>
@@ -48,7 +48,7 @@
     </div>
    
 </div>
-<div class="w-[100%] h-[100%] flex mb-[2vw] ">
+<div class="w-[100%] h-[100%] flex mb-[vw] ">
     <div class="left w-[50%] h-[100%] ">
         <div class="Text-part flex flex-col gap-[0.9vw]  mt-[8vw] ml-[4vw] " >
             <h1 class="  text-2xl ">Hello i'm </h1>
@@ -78,21 +78,29 @@
 
 </div >
 <div id="page2" class=" w-[100%] h-screen bg-[#ECE5D8]">
-<div class ="  ml-[5vw] mt-[3vw]  mb-[1vw] inline-block" >
+<div class ="  ml-[5vw] mt-[3vw]   inline-block" >
     <h1 class="montserrat text-3xl font-[500]" >About</h1>
 </div>
-<div class="w-[100%] h-[80%] rounded flex items-center justify-center" >
-<div class="gilroy bg-[#4a724f] flex text-[1.3vw] items-center text-white flex-col  justify-around rounded w-[80%] h-[80%] pl-[4vw] pr-[4vw] pt-[2vw] pb-[2vw] " >
-    <h1>" Hello there! I'm Lokesh Dhote, a proactive Computer Science and Engineering student at LNCT College, currently embarking on my second year of B.Tech. With a versatile skill set encompassing proficiency in C, frontend and backend development, as well as React, I'm passionate about leveraging technology to solve real-world problems and create innovative solutions.</h1>
+<div class="w-[100%] h-[80%] rounded flex flex-col items-center justify-center" >
+<div class=" w-[80%]  flex justify-left" >
+    <img class="w-[7vw]    mt-[2vw]" src="./pictures/panda1-Photoroom.png-Photoroom.png" alt="">
+
+</div>
+    <div class="gilroy bg-[#4a724f] flex text-[1.3vw] font-[350] items-center text-white flex-col  justify-around rounded w-[80%] h-[80%] pl-[4vw] pr-[4vw] pt-[2vw] pb-[2vw] " >
+    <h1> " Hello there! I'm  <span class="italic  text-zinc-800" > Lokesh Dhote </span> , a proactive Computer Science and Engineering student at LNCT College, currently embarking on my second year of B.Tech. With a versatile skill set encompassing proficiency in C, frontend and backend development, as well as React, I'm passionate about leveraging technology to solve real-world problems and create innovative solutions.</h1>
     <h1>  Beyond the classroom, I thrive in competitive environments, having actively participated in numerous coding hackathons. These experiences have not only sharpened my technical abilities but also honed my problem-solving skills and fostered a collaborative mindset.</h1>
     <h1>I'm eager to continue my journey of growth, exploration, and impact in the realm of computer science, fueled by my passion for learning and my commitment to making a difference through technology. "</h1>
 </div>
 </div>
 </div>
-</div>
+
 <div id="page3" class=" w-[100%] h-screen ">
+<div class="mt-[5vw] ml-[4vw]">
+    <h1 class="text-4xl text-zinc-600">Skill</h1>
+</div>
 <div>
-    <h1>Skills</h1>
+    <!-- <h1> <></h1>
+    <h1>< /></h1> -->
 </div>
 </div>
 <div id="page4"class=" w-[100%] h-screen">
@@ -103,6 +111,7 @@
 </div>
 
     </div>
+</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./script.js"></script>
 </body>
