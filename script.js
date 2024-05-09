@@ -99,9 +99,9 @@ var tl3 = gsap.timeline({
     trigger:"#page2",
     start:"top 0%",
     // end:"top 90%",
-    markers:true,
+    // markers:true,
     pin:true,
-    scrub:3,
+    scrub:2,
     }
 })
 
@@ -116,6 +116,31 @@ tl3
   duration:200,
   
 },"a")
+
+
+
+var tl4 = gsap.timeline({
+  scrollTrigger:{
+    scroller:"body",
+    trigger:"#page3",
+    pin:true,
+    scrub:3,
+    markers:true,
+    start:"top 0%",
+    // end:"top -800%"
+  }
+})
+tl4
+.to("#skill ",{
+  x:"-55%",
+  duration:1
+
+})
+
+
+
+
+
 function mouseMove(){
 var mouse = document.querySelector(".mouse")
 

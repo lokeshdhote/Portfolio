@@ -15,8 +15,15 @@
 
 
 <style>
+      #skill:-webkit-scrollbar{
+        display: none;
+    }
+    #skill{
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
 .main{
-    /* overflow: h; */
+    overflow: hidden;
     /* justify-content: right; */
 }
 .avatar{
@@ -97,27 +104,79 @@
 </div>
 </div>
 
-<div id="page3" class=" w-[100%] h-screen ">
-<div class="mt-[5vw] ml-[4vw]">
-    <h1 class="text-4xl text-zinc-600">Skill</h1>
+<div id="page3" class=" w-[100%] h-screen  bg-[#ECE5D8]">
+<div class="pt-[4vw] ml-[4vw] mb-[1vw]">
+    <h1 class="montserrat text-4xl font-[500]">Skill</h1>
 </div>
-<div>
+<div id="skill" class="w-fit overflow-x-auto  h-[70%]  flex items-center justify-between pl-[1vw] pr-[1vw] gap-[4vw]   ">
+    <div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+        <img class="w-[7vw]"  src="./pictures/icons8-c-programming-48.png" alt="">
+        <h2 class="text-2xl " >   C</h2>
+    </div>
 
-   
-    <!-- <h1> <></h1>
-    <h1>< /></h1> -->
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/html-5.png" alt="">
+    <h2 class="text-2xl " >HTML</h2>
 </div>
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/css-3.png" alt="">
+    <h2 class="text-2xl " >CSS</h2>
 </div>
-<div id="page4"class=" w-[100%] h-screen">
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-tailwind-css-48.png" alt="">
+    <h2 class="text-2xl " >Tailwind CSS</h2>
+</div>
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-javascript-48.png" alt="">
+    <h2 class="text-2xl " >javaScript</h2>
+</div>
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-figma-48.png" alt="">
+    <h2 class="text-2xl " >UI Desgin</h2>
+</div>
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-nodejs-48.png" alt="">
+    <h2 class="text-2xl " >Node js</h2>
+</div>
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-express-js-48.png" alt="">
+    <h2 class="text-2xl " >Express js</h2>
+</div>
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-npm-48.png" alt="">
+    <h2 class="text-2xl " >Npm</h2>
+</div>
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-mongodb-a-cross-platform-document-oriented-database-program-24.png" alt="">
+    <h2 class="text-2xl " >MongoDB</h2>
+</div>
+<!-- <div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-postman-is-the-only-complete-api-development-environment-24.png" alt="">
+    <h2 class="text-2xl " >Postman</h2>
+</div> -->
+
+<div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-react-js-16.png" alt="">
+    <h2 class="text-2xl " >React</h2>
+</div>
+<!-- <div class="skillDiv w-[15vw] h-[15vw] bg-zinc-500 flex flex-col items-center justify-center gap-[2vw] shrink-0" >
+    <img class="w-[7vw]" src="./pictures/icons8-git-48.png" alt="">
+    <h2 class="text-2xl " >Git</h2>
+</div> -->
 
 </div>
-<div  id="footer"class=" ">
+</div>
+<div id="page4"class=" w-[100%] h-screen  bg-[#ECE5D8]">
 
 </div>
+<div  id="footer" class="w-[100%] h-[50%] bg-[#ECE5D8] ">
+    <div><h6 class="text-center font-[150] text-zinc-600" >edited by @lokeshdhote2024</h6></div>
+    <!-- <div class="visme_d" data-title="Contact Me Contact Form" data-url="6x368we3-contact-me-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="64408"></div> -->
 
     </div>
 </div>
-    
+<!-- <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script> -->
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
